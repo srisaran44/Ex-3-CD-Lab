@@ -44,6 +44,7 @@ int yywrap()
 }
 ```
 ## YACC:
+```
 %{
 #include <stdio.h>
 #include <stdlib.h>
@@ -98,6 +99,7 @@ void yyerror(const char *s)
     valid = 0;
     printf("\nInvalid Arithmetic Expression\n");
 }
+```
 # OUTPUT
 <img width="1456" height="756" alt="Screenshot 2026-11-11 133113" src="https://github.com/user-attachments/assets/54507bb6-afb7-4f1b-87fa-c7664446a0b6" />
 
